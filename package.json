@@ -9,7 +9,12 @@
     "start": "node --enable-source-maps ./dist/index.mjs",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
-  "dependencies": {
+  "dependencies": { "esbuild": "^0.24.0",
+    "typescript": "^5.0.0"
+  }
+  
+  }
+    
     "@supabase/supabase-js": "^2.117.2",
     "@workspace/api-zod": "workspace:*",
     "cookie-parser": "^1.4.7",
